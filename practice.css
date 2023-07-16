@@ -131,6 +131,7 @@ font-size: 18px;
     font-family: sans-serif;
     color: #24315e;
     margin:120px 0px 0px 300px;
+
 }
 .matter1{
     color: #505a7e;
@@ -275,9 +276,9 @@ font-size: 18px;
     font-size: 50px;
     margin: 15px 0px 0px 100px;
 }
-.dliquip{
+.Dliquip{
     font-size: 16px;
-    margin: 15px 0px 0px 200px;
+    margin: 15px 0px 0px 100px;
 }
 .hireme{
     background-color: #24315E;
@@ -509,8 +510,29 @@ font-size: 18px;
     height: 500px;
     margin: 20px 0px 20px 0px;
 }
+.input1{
+    padding: 10px; 
+    width: 320px; 
+    margin: 50px 0px 0px 0px;
+}
+.input2{
+    padding: 10px;
+    width: 320px;
+}
+.textarea{
+    width: 340px;
+    height: 70px;
+}
+.submitbtn{
+    width: 340px;
+    height: 30px;
+    background-color: aqua;
+}
 
 @media(max-width:668px){
+    body{
+        overflow-x: hidden;
+    }
     .navbar{
         display: none;
         position: sticky;
@@ -537,51 +559,61 @@ font-size: 18px;
     
     }
     .hii{
-        font-size: 25px;
+        font-size: 10px;
         font-family: sans-serif;
-        margin: 100px 0px 0px 100px;
+        margin: 50px 0px 0px -20px;
     }
     .name{
-        font-size: 50px;
-        margin: 0px 0px 0px 95px;
+        font-size: 20px;
+        margin: 0px 0px 0px -20px;
         font-family: sans-serif;
     }
     .newyork{
-        font-size: 21px;
-        margin: 15px 0px 0px 95px;
+        font-size: 12px;
+        margin: 15px 0px 0px -20px;
         font-family: sans-serif;
     }
     .btn{
-        margin: 20px 0px 0px 95px;
+        margin: 20px 0px 0px -20px;
         height: 40px;
-        width: 130px;
+        width: 80px;
     }
     .btn a{
-        font-size: 16px;
+        font-size: 12px;
         font-family: sans-serif;
-        padding: 5px;
+        padding: 1px;
         text-decoration: none;
         align-items: center;
         justify-content: center;
     }
     .mywork{
-        margin: 0px 0px 0px 120px;
-        font-size: 20px;
-    }   
-        .maindiv2{
-            background-image: url('bluebgcolor.jpg');
-        }
+        margin: 0px 0px 0px 0px;
+        font-size: 12px;
+    } 
+    .thought{
+        margin-left: -20px;
+        font-size: 12px;
+    }
+    .div2{
+        margin-top: 100px;
+    }
+    .div2 img{
+        width: 300%;
+    }  
+    .maindiv2{
+        background-image: url('bluebgcolor.jpg');
+    }
         .maindiv2 table{
             margin: auto;
-        }
+    }
         .maindiv2 table tr td img{
-            width: 150px;
+            width: 82px;
             
-        } 
-        .dsi{
+    } 
+    .dsi{
             display: block;
         }
-        .dedication{
+    .dedication{
             font-size: 27px;
             font-family: sans-serif;
             color: #24315e;
@@ -669,14 +701,14 @@ font-size: 18px;
         }
         .pinkbg table tr td{
             border: 5px solid blue;
-            padding: 20px;
+            padding: 10px;
         }
         .pinkbg img{
             margin: 100px 500px 0px 0px;
             width: 600px;
         }
         .dos{
-            display: flex;
+            display: block;
             justify-content: center;
             margin-top: 150px;
         }
@@ -704,7 +736,7 @@ font-size: 18px;
             margin-top: 100px;
         }
         .yellowleft img{
-            width: 120%;
+            width: 150%;
             margin-top: 50px;
         }
         .yellowright{
@@ -712,8 +744,8 @@ font-size: 18px;
         }
         .aboutwithline{
             display: flex;
-            margin-top: 80px;
-            margin-left: 15px;
+            margin-top: 30px;
+            margin-left: 5px;
         }
         .lline{
             margin: 0px 0px 0px 35px;
@@ -721,26 +753,27 @@ font-size: 18px;
         }
         .aboutme{
             color: #ff4612;
-            font-size: 120%;
+            font-size: 90%;
             font-family: sans-serif;
-            margin: 7px 0px 0px 10px;
+            margin: 7px 0px 0px 20px;
         }
         .rline{
-            margin: 0px 0px 0px 15px;
+            margin: 0px 0px 0px 60px;
             color: #ff4612;
         }
         .ican{
-            font-size: 180%;
-            margin: 15px 0px 0px 50px;
+            font-size: 120%;
+            margin: 15px 0px 0px 40px;
         }
-        .dliquip{
-            font-size: 116px;
-            margin: 15px 0px 0px 100px;
+        .Dliquip{
+            font-size: 16px;
+            margin-left: 40px;
+            margin-right: -150px;
         }
         .hireme{
             background-color: #24315E;
             padding: 13px 35px;
-            margin: 30px 0px 0px 50px;
+            margin: 30px 0px 0px 40px;
         }
         .hireme a{
             color: white;
@@ -754,7 +787,7 @@ font-size: 18px;
             width: 80%;
             border: 3px solid blue;
             overflow: hidden;
-            margin: 50px 0px 0px 70px;
+            margin: 50px 0px 0px 35px;
             justify-content: center;
         
         }
@@ -769,7 +802,7 @@ font-size: 18px;
             width: 80%;
             border: 3px solid blue;
             overflow: hidden;
-            margin: 50px 0px 0px 70px;
+            margin: 50px 0px 0px 35px;
             justify-content: center;
         }
         .fiveimages2 img{
@@ -796,12 +829,13 @@ font-size: 18px;
         }
         .faq1{
             background-color: #24315E;
-            width: 400px; 
+            width: 60%; 
             border-radius: 20px;
             padding: 40px;
             color: white;
             margin: 40px;
             font-size: 20px;
+            margin-left: 35px;
         }
         .faq1 p{
             color: white;
@@ -813,11 +847,11 @@ font-size: 18px;
             padding: 100px;
         }
         .greenbg p{
-            font-size: 56px;
+            font-size: 25px;
         }
         .greenbg button{
             padding: 10px 40px 10px 40px;
-            margin-top: 50px;
+            margin-top: 40%;
         }
         .blogsec{
             display: flex;
@@ -848,9 +882,8 @@ font-size: 18px;
             justify-content: center;
         }
         .oimg{
-            width: 70%;
-            
-            margin-left: 100px;
+            width: 90%;
+            margin-left: 20px;
             border-radius: 180px;
         }
         .jim{
@@ -861,52 +894,54 @@ font-size: 18px;
             text-decoration: none;
         }
         .lowerline1{
-            margin-left: 180px;
+            margin-left: 50px;
             color: grey;
         }
         .date1{
             margin-top: 15px;
-            margin-left: 270px;
+            margin-left: 135px;
         
         }
         .simg{
-            width: 73%;
-            margin-left: 100px;
+            width: 90%;
+            margin-left: 20px;
             border-radius: 150px;
         }
         .howto{
             font-size: 22px;
-            margin-left: 90px;
+            margin-left: 40px;
         }
         .howto a{
             text-decoration: none;
         }
         .lowerline2{
-            margin-left: 200px;
+            margin-left: 60px;
             color: grey;
         }
         .date2{
             margin-top: 15px;
-            margin-left: 280px;
+            margin-left: 140px;
         }
         .tpic{
-            width: 75%;
-            padding: 30px;
+            width: 90%;
+            padding: 20px;
             border-radius: 180px;
+            margin-left: -0px;
         }
         .howdesign{
             font-size: 22px;
-            margin-left: 85px;
+            margin-left: 45px;
         }
         .howdesign a{
             text-decoration: none;
         }
         .lowerline3{
-            margin-left: 185px;color: grey;
+            margin-left: 60px;
+            color: grey;
         }
         .date3{
             margin-top: 5px;
-            margin-left: 265px;
+            margin-left: 150px;
         }
         .contactsec{
             background-image: url('bluebgcolor.jpg');
@@ -933,7 +968,7 @@ font-size: 18px;
             color: #ff4612;
         }
         .drop{
-            font-size: 35px;
+            font-size: 25px;
             color: white;
             margin: 12px 0px 0px 20px;
         }
@@ -943,7 +978,7 @@ font-size: 18px;
             margin: 40px 0px 0px 25px;
         }
         .number{
-            font-size: 32px;
+            font-size: 22px;
             margin: 5px 0px 0px 25px;
         }
         .number a{
@@ -955,7 +990,7 @@ font-size: 18px;
             margin: 40px 0px 0px 25px;
         }
         .gmail{
-            font-size: 32px;
+            font-size: 22px;
             margin: 5px 0px 0px 25px;
         }
         .gmail a{
@@ -966,14 +1001,28 @@ font-size: 18px;
         }
         .form{
             background-color: white;
-            width:600px ; 
-            height: 500px;
-            margin: 20px 0px 20px 30px;
+            width:320px; 
+            height: 400px;
+            margin: 20px 0px 0px 30px;
         }
-        .form input{
-            width: 1600px;
+        .input1{
+            padding: 10px; 
+            width: 200px; 
+            margin: 50px 0px 0px 0px;
         }
         
+        .input2{
+            padding: 10px;
+            width: 200px;
+        }
+        .textarea{
+            width: 220px;height: 70px;
+        }
+        .submitbtn{
+            width: 220px;
+            height: 30px;
+            background-color: aqua;
+        }
         
         
         
